@@ -17,5 +17,22 @@ namespace Todo
 			LoadApplication(new App());
 			return base.FinishedLaunching(app, options);
 		}
+
+
+        public override void WillEnterForeground(UIApplication application)
+        {
+            
+        }
+
+        public override void DidEnterBackground(UIApplication application)
+        {
+            
+        }
+
+        public override void WillTerminate(UIApplication application)
+        {
+            
+        }
+
 	}
 }
