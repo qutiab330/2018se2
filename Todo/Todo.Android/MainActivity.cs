@@ -31,6 +31,11 @@ namespace Todo
             base.OnStart();
         }
 
+        protected override void OnRestart()
+        {
+            base.OnRestart();
+        }
+
         protected override void OnPause()
         {
             base.OnPause();
