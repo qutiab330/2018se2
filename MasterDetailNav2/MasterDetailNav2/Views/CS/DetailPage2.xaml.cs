@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace MasterDetailNav2
 {
-    public partial class MainPage : MasterDetailPage
+    public partial class DetailPage2 : ContentPage
     {
-        public MainPage()
+        public DetailPage2()
         {
             InitializeComponent();
         }

@@ -7,4 +7,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="Views\CS\" />
+    <Folder Include="Views\XAML\" />
+  </ItemGroup>
 </Project>
