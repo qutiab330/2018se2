@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="Views\CS\" />
+    <Folder Include="Views\XAML\" />
+    <Folder Include="Model\" />
+    <Folder Include="Tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\tDetailPage2.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\tDetailPage2.xaml.cs" />
+  </ItemGroup>
+</Project>

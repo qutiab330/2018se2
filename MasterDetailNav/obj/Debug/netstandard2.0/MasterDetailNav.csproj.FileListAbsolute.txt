@@ -1,0 +1,15 @@
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/bin/Debug/netstandard2.0/MasterDetailNav.deps.json
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/bin/Debug/netstandard2.0/MasterDetailNav.dll
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/bin/Debug/netstandard2.0/MasterDetailNav.pdb
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.csprojResolveAssemblyReference.cache
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.csproj.CoreCompileInputs.cache
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.AssemblyInfoInputs.cache
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.AssemblyInfo.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.dll
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MasterDetailNav.pdb
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/Views/XAML/DetailPage1.xaml.g.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/Views/XAML/DetailPage2.xaml.g.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/Views/XAML/MasterPage.xaml.g.cs
+/Users/irinaanastasiu/Projects/MasterDetailNav/MasterDetailNav/obj/Debug/netstandard2.0/XamlC.stamp
