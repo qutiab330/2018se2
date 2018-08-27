@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Multiplier" x:Class="Multiplier.MainPage">
+    <StackLayout VerticalOptions="Center">
+        <StackLayout.BindingContext>
+             <local:MainViewModel />
+        </StackLayout.BindingContext>
+        <Entry AutomationId="FirstNumberEntry" Placeholder="0" Keyboard="Numeric" Text="{Binding FirstNumber}" WidthRequest="100" HorizontalOptions="CenterAndExpand"/> <Label Text="*" HorizontalOptions="Center"/>
+        <Entry AutomationId="SecondNumberEntry" Placeholder="0" Keyboard="Numeric" Text="{Binding SecondNumber}" WidthRequest="100" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Result:" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+        <Label AutomationId="ResultLabel" Text="{Binding Result}" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+</ContentPage>
