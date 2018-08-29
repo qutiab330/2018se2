@@ -9,7 +9,7 @@
 		<Label Text="Name" />
         <Entry x:Name="nameEntry" Text="{Binding Path=Text}" Placeholder="task name" />
 		<Label Text="Notes" />
-        <Entry x:Name="notesEntry" Text="{Binding Path=Complete}" />
+        <Entry x:Name="notesEntry" Text="{Binding Path=Text}" />
         <Button Text="Save" Clicked="OnSaveUpdateActivated" />
 		<Button Text="Delete" Clicked="OnDeleteActivated" />
         <Button Text="Cancel" Clicked="OnCancelActivated" />
