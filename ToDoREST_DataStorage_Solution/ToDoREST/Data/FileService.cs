@@ -68,6 +68,11 @@ namespace ToDoREST
             {
                 List<TodoItem> items = App.TodoManager.CurrentItems;
 
+                if (item.Id == null) { 
+                    item.Id = DateTime.Now.GetHashCode().ToString();
+                    items.Add(item);
+                }
+                 
                 TodoItem[] itemsArr = items.ToArray<TodoItem>();
                 Rootobject rootobject = new Rootobject();
                 rootobject.items = itemsArr;
