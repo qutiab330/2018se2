@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:AsyncDemo_StudentTask" x:Class="AsyncDemo_StudentTask.MainPage">
+        <StackLayout>
+        <Label Text="Text read progress:" FontSize="Small" VerticalOptions="Start" HorizontalOptions="Start"></Label>
+        <ProgressBar x:Name="prgbarDownload" VerticalOptions="Start" HorizontalOptions="Center" Progress="0.0" WidthRequest="300" HeightRequest="10"></ProgressBar>
+        <Label Text="Status:" FontSize="Small" VerticalOptions="Start" HorizontalOptions="Start"></Label>
+        <Editor x:Name="txtStatus" BackgroundColor="Azure" FontSize="Small" VerticalOptions="Start" HorizontalOptions="Center" HeightRequest="150" WidthRequest="300"></Editor>
+
+        <Label Text="Content:" FontSize="Small" VerticalOptions="Start" HorizontalOptions="Start"></Label>
+        <Editor x:Name="txtContent"  FontSize="Small" BackgroundColor="Aqua" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="300" HeightRequest="220"></Editor>
+
+        <Button x:Name="btnStart" Text="Start" FontSize="Small" HorizontalOptions="Center"></Button>
+    </StackLayout>
+</ContentPage>
